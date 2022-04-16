@@ -1,0 +1,72 @@
+body{
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.avatar{
+    width: 210px;
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px black;
+}
+.button{
+    background-color: black;
+    color: wheat;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+.contact{
+    margin-bottom: 48px;
+}
+.contact-icon{
+    margin-right: 12px;
+    width: 16px;
+}
+.contact-item{
+    margin-bottom: 4px;
+}
+.container {
+    background-image: linear-gradient(to right, rgba(255,255,255, 1), rgba(255,255,255,0.7) ),
+    url(https://images.unsplash.com/photo-1526925539332-aa3b66e35444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: upper right;
+    min-height: 100vh;
+    padding: 128px;
+}
+@media screen  and (max-width: 768px){
+    .container{
+        padding: 48px;
+    }
+}
+.content{
+    max-width: 500px;
+}
+.name {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+@media screen  and (max-width: 768px){
+    .name{
+    font-size: 36px;
+    }
+}
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.about{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(66, 231, 176);
+    margin-bottom: 24px;
+}
+.title{
+    font-size: 96px;
+    font-weight: 600;
+    text-align: center;
+}
